@@ -1,0 +1,112 @@
+############################
+# Visual Studio / .NET
+############################
+
+# Build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# VS Config
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+############################
+# NuGet
+############################
+
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# Caches de NuGet
+~/.nuget/packages/
+*.nuspec
+
+############################
+# Testes (xUnit / Reqnroll)
+############################
+
+# Resultados
+TestResult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Reqnroll cache / output
+*.feature.xml
+ReqnrollOutput.txt
+*.stepmap
+*.bkup.*
+
+############################
+# Selenium / Appium Logs
+############################
+
+*.log
+*.appium.log
+*.selenium.log
+AppiumLogs/
+SeleniumLogs/
+
+############################
+# Arquivos temporários
+############################
+
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.DS_Store
+
+# Windows lixo
+Thumbs.db
+Desktop.ini
+
+############################
+# EditorConfig / Analyzers
+############################
+
+# Não ignorar .editorconfig nem analisadores
+# Só ignorar backups
+.editorconfig.bak
+
+############################
+# Códigos gerados
+############################
+
+*.g.cs
+*.g.i.cs
+Generated/
+
+############################
+# Ambiente local
+############################
+
+# Settings locais (créditos, configs privadas)
+appsettings.Development.json
+appsettings.Local.json
+*.secret.json
+
+############################
+# Outros
+############################
+
+*.orig
+*.rej
+`*.local`
+*.session.json
